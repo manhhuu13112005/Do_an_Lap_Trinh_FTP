@@ -1,0 +1,234 @@
+# depslib dependency file v1.0
+1762328536 source:d:\document\do an lthtm\ftpv3\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\include\cli.h
+	<string>
+
+1762328536 source:d:\document\do an lthtm\ftpv3\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\include\serverconfig.h
+	<string>
+	<unordered_map>
+
+1762328536 source:d:\document\do an lthtm\ftpv3\session.cpp
+	"session.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\include\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\include\tcpsocket.h
+	"socket.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\include\socket.h
+	<string>
+	<exception>
+
+1762328536 source:d:\document\do an lthtm\ftpv3\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\tcpserversocket.h
+	"tcpsocket.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\tcpsocket.h
+	"socket.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\cli.h
+	<string>
+
+1762328536 d:\document\do an lthtm\ftpv3\serverconfig.h
+	<string>
+	<unordered_map>
+
+1762328536 d:\document\do an lthtm\ftpv3\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1762328536 d:\document\do an lthtm\ftpv3\socket.h
+	<string>
+	<exception>
+
+1762328536 source:d:\document\do an lthtm\ftpv3\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1762328536 source:d:\document\do an lthtm\ftpv3\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1762328536 source:d:\document\doanlthtm\ftpv3\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762854572 d:\document\doanlthtm\ftpv3\cli.h
+	<string>
+
+1762328536 source:d:\document\doanlthtm\ftpv3\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\serverconfig.h
+	<string>
+	<unordered_map>
+
+1762328536 source:d:\document\doanlthtm\ftpv3\session.cpp
+	"session.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\tcpsocket.h
+	"socket.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\socket.h
+	<string>
+	<exception>
+
+1762328536 source:d:\document\doanlthtm\ftpv3\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\tcpserversocket.h
+	"tcpsocket.h"
+
+1762328536 source:d:\document\doanlthtm\ftpv3\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1765877501 source:d:\document\doanlthtm\ftpv3\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1762937654 source:d:\document\doanlthtm\ftpv3\ftpcli.cpp
+	"ftpcli.h"
+
+1762854442 d:\document\doanlthtm\ftpv3\include\ftpcli.h
+	"cli.h"
+	<iostream>
+	<string>
+
+1762328536 d:\document\doanlthtm\ftpv3\include\cli.h
+	<string>
+
+1765811109 source:d:\document\doanlthtm\ftpv3\main.cpp
+	"Echoftpcli.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\include\serverconfig.h
+	<string>
+	<unordered_map>
+
+1762328536 d:\document\doanlthtm\ftpv3\include\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1763776361 d:\document\doanlthtm\ftpv3\include\tcpsocket.h
+	"socket.h"
+
+1763048636 d:\document\doanlthtm\ftpv3\include\socket.h
+	<string>
+	<exception>
+
+1762328536 d:\document\doanlthtm\ftpv3\include\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1762328536 d:\document\doanlthtm\ftpv3\include\tcpserversocket.h
+	"tcpsocket.h"
+
+1763112759 source:d:\document\doanlthtm\ftpv3\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1765874408 source:d:\document\doanlthtm\ftpv3\tcpclient.cpp
+	"TcpClient.h"
+	<iostream>
+	<fstream>
+
+1763996961 d:\document\doanlthtm\ftpv3\include\tcpclient.h
+	"tcpsocket.h"
+
+1765813451 source:d:\document\doanlthtm\ftpv3\echotcpclient.cpp
+	"EchoTcpClient.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1765809430 d:\document\doanlthtm\ftpv3\include\echotcpclient.h
+	"TcpClient.h"
+
+1765941533 source:d:\document\doanlthtm\ftpv3\echoftpcli.cpp
+	"Echoftpcli.h"
+	<iostream>
+	<filesystem>
+	<fstream>
+
+1763996666 d:\document\doanlthtm\ftpv3\include\echoftpcli.h
+	"cli.h"
+	"EchoTcpClient.h"
+	<string>
+

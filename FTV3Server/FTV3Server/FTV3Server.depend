@@ -1,0 +1,172 @@
+# depslib dependency file v1.0
+1763486300 source:d:\document\doanlthtm\ftv3server\main.cpp
+	"EchoCLIServer.h"
+
+1762328536 source:d:\document\doanlthtm\ftv3server\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1762328536 d:\document\doanlthtm\ftv3server\include\cli.h
+	<string>
+
+1765890029 source:d:\document\doanlthtm\ftv3server\serverconfig.cpp
+	<cstring>
+	<iostream>
+	<fstream>
+	<sstream>
+	"serverconfig.h"
+
+1765888295 d:\document\doanlthtm\ftv3server\include\serverconfig.h
+	<string>
+	<unordered_map>
+
+1762328536 source:d:\document\doanlthtm\ftv3server\session.cpp
+	"session.h"
+
+1762328536 d:\document\doanlthtm\ftv3server\include\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1762328536 d:\document\doanlthtm\ftv3server\include\tcpsocket.h
+	"socket.h"
+
+1762328536 d:\document\doanlthtm\ftv3server\include\socket.h
+	<string>
+	<exception>
+
+1764173428 source:d:\document\doanlthtm\ftv3server\tcpserver.cpp
+	"tcpserver.h"
+	<iostream>
+	<exception>
+
+1764171944 d:\document\doanlthtm\ftv3server\include\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+	<cstdint>
+	<thread>
+
+1762328536 d:\document\doanlthtm\ftv3server\include\tcpserversocket.h
+	"tcpsocket.h"
+
+1763368591 source:d:\document\doanlthtm\ftv3server\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1765878039 source:d:\document\doanlthtm\ftv3server\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1763370033 source:d:\document\doanlthtm\ftv3server\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1763372877 source:d:\document\doanlthtm\ftv3server\ftpservercli.cpp
+	"ftpservercli.h"
+	"FTPserverSK.h"
+
+1763371546 d:\document\doanlthtm\ftv3server\include\ftpservercli.h
+	"cli.h"
+
+1763372626 d:\document\doanlthtm\ftv3server\include\ftpserversk.h
+	"tcpserver.h"
+	<iostream>
+
+1763373122 source:d:\document\doanlthtm\ftv3server\ftpserversk.cpp
+	"FTPserverSK.h"
+	<iostream>
+
+1764075383 source:d:\document\doanlthtm\ftv3server\user_manager.cpp
+	"user_manager.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<windows.h>
+
+1763990203 d:\document\doanlthtm\ftv3server\include\user_manager.h
+	<string>
+	<unordered_map>
+
+1766041317 source:d:\document\doanlthtm\ftv3server\echotcpserver.cpp
+	"EchoTCPServer.h"
+	<iostream>
+	<fstream>
+	<filesystem>
+	<sstream>
+	<vector>
+	<thread>
+
+1766041316 d:\document\doanlthtm\ftv3server\include\echotcpserver.h
+	"tcpserver.h"
+	"tcpsocket.h"
+	"MyServerConfig.h"
+	"FTPSession.h"
+	<iostream>
+
+1764165636 source:d:\document\doanlthtm\ftv3server\echocliserver.cpp
+	"EchoCLIServer.h"
+	"EchoTCPServer.h"
+
+1763486038 d:\document\doanlthtm\ftv3server\include\echocliserver.h
+	"cli.h"
+	"EchoTCPServer.h"
+
+1763538581 source:d:\document\doanlthtm\ftv3server\managerclient.cpp
+	"ManagerClient.h"
+	<iostream>
+
+1763538551 d:\document\doanlthtm\ftv3server\include\managerclient.h
+	"serverconfig.h"
+	"session.h"
+
+1765889129 d:\document\doanlthtm\ftv3server\include\myserverconfig.h
+	"serverconfig.h"
+	<string>
+
+1765890580 source:d:\document\doanlthtm\ftv3server\myserverconfig.cpp
+	"MyServerConfig.h"
+	"serverconfig.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1766041317 d:\document\doanlthtm\ftv3server\include\ftpsession.h
+	"session.h"
+	<string>
+	<filesystem>
+	<sstream>
+	<vector>
+	<iostream>
+	<chrono>
+	<thread>
+
+1766041435 source:d:\document\doanlthtm\ftv3server\ftpsession.cpp
+	"FTPSession.h"
+	<fstream>
+
